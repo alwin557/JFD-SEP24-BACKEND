@@ -17,6 +17,12 @@ http.createServer( function (request, response) {
 // kalau mau keluar dari server di terminal tekan control C
 // kalau mau masuk ke server di terminal perintah: node percobaan
 // kalau mau update masukan ulang di terminal (3 langkah):
-// git add .
+// git add .       (semua file yg mau di edit)
 // git commit -m "komentar bebas"
 // git push -u origin main
+
+// kalau mau github nya kembali ke coding awal sebelum di update perintahnya:
+// git reset --hard   (masukkan code yg ada di commit di github)
+
+// kalau mau github nya kembali ke coding beserta keterangan update juga, perintahnya :
+// git reset --softhard   (masukkan code yg ada di commit di github)
